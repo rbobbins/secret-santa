@@ -1,1 +1,3 @@
-Person = Struct.new(:name, :email)
+require 'immutable-struct'
+
+Person = ImmutableStruct.new(:name, :email)

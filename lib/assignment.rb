@@ -1,1 +1,3 @@
-Assignment = Struct.new(:giver, :recipient)
+require 'immutable-struct'
+
+Assignment = ImmutableStruct.new(:giver, :recipient)

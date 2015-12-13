@@ -1,6 +1,7 @@
 GEM
   specs:
     diff-lcs (1.2.5)
+    immutable-struct (2.1.1)
     mail (2.6.3)
       mime-types (>= 1.16, < 3)
     mime-types (2.6.1)
@@ -22,5 +23,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  immutable-struct
   mail
   rspec
