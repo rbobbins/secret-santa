@@ -6,8 +6,8 @@ class SantaMailer
 			Mail.new do
 				from 'santa@thenorthpole.com'
 				to a.giver.email
-				subject 'A message from the north pole'
-				body "Give a gift to #{a.recipient.name}"
+				subject 'A message from the North Pole'
+				body File.read("#{Dir.pwd}/lib/email_template.txt").gsub("[RECIPIENT_NAME]", a.recipient.name)
 			end
 		}
 	end
