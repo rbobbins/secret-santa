@@ -1,0 +1,1 @@
+Assignment = Struct.new(:giver, :recipient)

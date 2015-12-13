@@ -1,0 +1,1 @@
+Person = Struct.new(:name, :email)
