@@ -10,7 +10,7 @@ $ ruby main.rb -f guestlist.yml --dry-run
 ```
 ### Fo'real
 ```
-$ ruby main.rb -f guestlist.yml -u rachelheidi
+$ ruby main.rb -f guestlist.yml -u mygmailusername
 Enter your GMail password (typing will be hidden):
 ```
 
