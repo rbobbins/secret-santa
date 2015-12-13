@@ -1,4 +1,5 @@
 require 'set'
+require_relative 'assignment'
 
 class SantaShuffler
 	def shuffle(participants:)

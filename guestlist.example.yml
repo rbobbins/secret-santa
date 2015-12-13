@@ -1,0 +1,8 @@
+---
+people:
+  - name: "Rachel"
+    email: "rachel@example.com"
+  - name: "Mikey"
+    email: "mikey@example.com"
+  - name: "Katie"
+    email: "katie@example.com"
